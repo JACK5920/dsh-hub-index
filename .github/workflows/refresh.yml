@@ -14,15 +14,15 @@ jobs:
         with:
           python-version: "3.12"
       - name: Convert upstream catalog to format 1
-        run: python scripts/hub2index.py --out index.json --check
+        run: python scripts/hub2index.py --out index.json --enrich --validate --npm-cache npm-cache.json
       - name: Commit when changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain index.json)" ]; then
-            git add index.json
+          if [ -n "$(git status --porcelain index.json npm-cache.json)" ]; then
+            git add index.json npm-cache.json
             git commit -m "data: refresh market index ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
           else
-            echo "index.json 无变化，跳过提交"
+            echo "无变化，跳过提交"
           fi

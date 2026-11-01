@@ -1,2 +1,4 @@
 plugins.zh.json
 __pycache__/
+enrich.log
+index-enriched.json

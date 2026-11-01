@@ -122,22 +122,34 @@ def star_bucket(n) -> str | None:
     return None
 
 
-def npm_resolve(names: list[str], cache_path: str, workers: int = 16) -> dict:
+def npm_resolve(names: list[str], cache_path: str, workers: int = 16, max_age_days: float = 7.0) -> dict:
     """目录没给版本号的条目，去 npm 取 dist-tags.latest 与 modified 时间。
 
     WHY: format 1 的 version 必须是精确 SemVer、publishTimestamp 必须是整数，
          缺了就不能发；宁可多花一次网络请求，也不编造版本号。
+         缓存带 TTL：否则包发了新版，索引会永远停在首次解析到的旧版本上。
     """
     cache: dict = {}
     if os.path.exists(cache_path):
         try:
             with open(cache_path, encoding="utf-8") as fh:
-                cache = json.load(fh)
+                loaded = json.load(fh)
+            cache = loaded if isinstance(loaded, dict) else {}
         except Exception:
             cache = {}
-    todo = [n for n in names if n not in cache]
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=max_age_days)
+
+    def fresh(name: str) -> bool:
+        rec = cache.get(name)
+        if not isinstance(rec, dict) or not rec.get("version"):
+            return False
+        stamp = to_ts(rec.get("fetchedAt"))
+        return stamp is not None and dt.datetime.fromtimestamp(stamp, dt.timezone.utc) >= cutoff
+
+    todo = [n for n in names if not fresh(n)]
     if not todo:
         return cache
+    print(f"    npm 缓存命中 {len(names) - len(todo)}，需重新解析 {len(todo)}", file=sys.stderr)
     import urllib.parse
     import urllib.error
     from concurrent.futures import ThreadPoolExecutor
@@ -151,13 +163,16 @@ def npm_resolve(names: list[str], cache_path: str, workers: int = 16) -> dict:
             with urllib.request.urlopen(req, timeout=30, context=ssl.create_default_context()) as r:
                 doc = json.loads(r.read())
             return name, {"version": (doc.get("dist-tags") or {}).get("latest"),
-                          "modified": doc.get("modified")}
+                          "modified": doc.get("modified"),
+                          "fetchedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
         except (urllib.error.URLError, urllib.error.HTTPError, ValueError, TimeoutError, OSError):
             return name, None
 
     done = 0
     with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
         for name, value in pool.map(one, todo):
+            if value is None and isinstance(cache.get(name), dict):
+                continue  # 网络失败就沿用旧缓存，别把好数据擦成空
             cache[name] = value or {}
             done += 1
             if done % 400 == 0:

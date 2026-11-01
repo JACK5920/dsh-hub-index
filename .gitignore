@@ -2,7 +2,7 @@ plugins.zh.json
 __pycache__/
 verify.log
 enrich.log
+/verify-report.json
 index.verified.json
 index-enriched.json
 served.json
-verify-report.json

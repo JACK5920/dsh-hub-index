@@ -1,0 +1,1202 @@
+[
+ {
+  "name": "@jingyun-ai/jingyun-dsh",
+  "action": "fallback",
+  "from": "0.1.21",
+  "to": "0.1.1"
+ },
+ {
+  "name": "whale-girl",
+  "action": "fallback",
+  "from": "0.2.0",
+  "to": "0.2.4"
+ },
+ {
+  "name": "dsh-workbuddy-xdpool",
+  "action": "fallback",
+  "from": "2.5.1",
+  "to": "2.0.1"
+ },
+ {
+  "name": "dsh-client-liang-intensity-skin",
+  "action": "fallback",
+  "from": "0.1.12",
+  "to": "0.1.6"
+ },
+ {
+  "name": "@shengsheng/dsh-taskboard",
+  "action": "fallback",
+  "from": "0.1.10",
+  "to": "0.1.9"
+ },
+ {
+  "name": "pi2dsh",
+  "action": "fallback",
+  "from": "0.1.2",
+  "to": "0.27.1"
+ },
+ {
+  "name": "dsh-web-mobile",
+  "action": "fallback",
+  "from": "3.2.2",
+  "to": "3.2.1"
+ },
+ {
+  "name": "dsh-git-memory",
+  "action": "fallback",
+  "from": "0.10.0",
+  "to": "0.8.1"
+ },
+ {
+  "name": "scientific-figure-library",
+  "action": "fallback",
+  "from": "0.9.2",
+  "to": "0.8.1"
+ },
+ {
+  "name": "dsh-trace-compare",
+  "action": "fallback",
+  "from": "2.4.0",
+  "to": "0.7.0"
+ },
+ {
+  "name": "deepseek-flow",
+  "action": "fallback",
+  "from": "0.4.2",
+  "to": "0.4.0"
+ },
+ {
+  "name": "@wowyuarm/dsh-agent-team",
+  "action": "fallback",
+  "from": "0.2.6",
+  "to": "0.2.1"
+ },
+ {
+  "name": "dsh-taskboard",
+  "action": "fallback",
+  "from": "0.9.7",
+  "to": "0.9.6"
+ },
+ {
+  "name": "dsh-omi-voice",
+  "action": "fallback",
+  "from": "0.1.3",
+  "to": "0.1.2"
+ },
+ {
+  "name": "dsh-computer-use",
+  "action": "fallback",
+  "from": "0.3.2",
+  "to": "0.3.1"
+ },
+ {
+  "name": "dsh-quant",
+  "action": "fallback",
+  "from": "0.91.0",
+  "to": "0.90.0"
+ },
+ {
+  "name": "dsh-qa-skills",
+  "action": "fallback",
+  "from": "0.9.0",
+  "to": "0.6.0"
+ },
+ {
+  "name": "@caob23/dsh-browser-control",
+  "action": "fallback",
+  "from": "1.2.0",
+  "to": "1.0.19"
+ },
+ {
+  "name": "dsh-full-remote",
+  "action": "fallback",
+  "from": "0.5.0",
+  "to": "0.3.7"
+ },
+ {
+  "name": "dsh-native-session-delete",
+  "action": "fallback",
+  "from": "1.5.20",
+  "to": "1.1.2"
+ },
+ {
+  "name": "dsh-piggy",
+  "action": "fallback",
+  "from": "0.37.1",
+  "to": "0.37.0"
+ },
+ {
+  "name": "dsh-wallpaper_share",
+  "action": "fallback",
+  "from": "26.10.12-D",
+  "to": "26.10.13-D"
+ },
+ {
+  "name": "dsh-taskwatch",
+  "action": "fallback",
+  "from": "1.8.17",
+  "to": "1.4.0"
+ },
+ {
+  "name": "dsh-superpower",
+  "action": "fallback",
+  "from": "8.0.0",
+  "to": "6.3.0-dsh.6"
+ },
+ {
+  "name": "dsh-plugin-solo-thinking",
+  "action": "fallback",
+  "from": "0.1.19",
+  "to": "0.1.18"
+ },
+ {
+  "name": "dsh-fish-buddy",
+  "action": "fallback",
+  "from": "1.6.2",
+  "to": "0.8.0"
+ },
+ {
+  "name": "@lemoncat7/dsh-knowledge",
+  "action": "fallback",
+  "from": "2.17.1",
+  "to": "2.17.0"
+ },
+ {
+  "name": "dsh-file-explorer",
+  "action": "fallback",
+  "from": "0.1.3",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-sentinel",
+  "action": "fallback",
+  "from": "0.13.2",
+  "to": "0.11.1"
+ },
+ {
+  "name": "@dingyi222666/dsh-focus-chat",
+  "action": "fallback",
+  "from": "0.7.20",
+  "to": "0.7.15"
+ },
+ {
+  "name": "dsh-sync-plugin",
+  "action": "drop",
+  "version": "0.21.1",
+  "verdict": "missing"
+ },
+ {
+  "name": "dsh-web-remote",
+  "action": "fallback",
+  "from": "5.7.7",
+  "to": "0.13.1"
+ },
+ {
+  "name": "dsh-awiki",
+  "action": "fallback",
+  "from": "0.3.5",
+  "to": "0.2.0-rc.1"
+ },
+ {
+  "name": "@sunjuntao/dsh-prompt-library",
+  "action": "fallback",
+  "from": "0.17.0",
+  "to": "0.17.2"
+ },
+ {
+  "name": "dsh-auto-approval-llm",
+  "action": "fallback",
+  "from": "0.0.43",
+  "to": "0.0.2"
+ },
+ {
+  "name": "dsh-sgme",
+  "action": "fallback",
+  "from": "1.10.6",
+  "to": "0.6.3"
+ },
+ {
+  "name": "dsh-queue-plus",
+  "action": "fallback",
+  "from": "0.4.0",
+  "to": "0.3.0"
+ },
+ {
+  "name": "dsh-ecc",
+  "action": "fallback",
+  "from": "0.5.0",
+  "to": "0.2.0"
+ },
+ {
+  "name": "dsh-excel-vera-plugin",
+  "action": "fallback",
+  "from": "0.43.0",
+  "to": "0.17.0"
+ },
+ {
+  "name": "harness-ui-enhancer",
+  "action": "fallback",
+  "from": "0.9.2",
+  "to": "0.6.3"
+ },
+ {
+  "name": "dsh-deepseek-vision",
+  "action": "fallback",
+  "from": "0.1.9",
+  "to": "0.1.7"
+ },
+ {
+  "name": "dsh-mcp-bridge",
+  "action": "fallback",
+  "from": "0.6.0",
+  "to": "0.3.0"
+ },
+ {
+  "name": "@benz-ai-x/dsh-research-graph",
+  "action": "fallback",
+  "from": "0.1.5",
+  "to": "0.1.5-rc.1"
+ },
+ {
+  "name": "@hxhxh/dsh-tray-restart",
+  "action": "fallback",
+  "from": "0.3.0",
+  "to": "0.3.1"
+ },
+ {
+  "name": "@kc0ed/dsh-bottom-bar",
+  "action": "fallback",
+  "from": "1.1.1",
+  "to": "1.1.0"
+ },
+ {
+  "name": "deepseek-git-guide",
+  "action": "fallback",
+  "from": "0.5.2",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-devquest",
+  "action": "fallback",
+  "from": "1.4.1",
+  "to": "1.3.0"
+ },
+ {
+  "name": "dsh-easygit-plugin",
+  "action": "fallback",
+  "from": "0.5.2",
+  "to": "0.4.3"
+ },
+ {
+  "name": "dsh-universal-attachments",
+  "action": "fallback",
+  "from": "0.1.3",
+  "to": "0.1.2"
+ },
+ {
+  "name": "deepseek-harness-qqbot",
+  "action": "fallback",
+  "from": "0.1.0",
+  "to": "0.1.5"
+ },
+ {
+  "name": "dsh-agent-messaging",
+  "action": "fallback",
+  "from": "0.13.1",
+  "to": "0.11.0"
+ },
+ {
+  "name": "dsh-devices",
+  "action": "fallback",
+  "from": "0.1.3",
+  "to": "0.1.2"
+ },
+ {
+  "name": "dsh-gitea-search",
+  "action": "fallback",
+  "from": "1.2.1",
+  "to": "0.1.1"
+ },
+ {
+  "name": "evo-subagent",
+  "action": "fallback",
+  "from": "1.2.0",
+  "to": "1.1.1"
+ },
+ {
+  "name": "smart-subagent",
+  "action": "fallback",
+  "from": "1.2.0",
+  "to": "0.4.0"
+ },
+ {
+  "name": "@anonyjcy/dsh-plugin-j-space",
+  "action": "fallback",
+  "from": "1.1.2",
+  "to": "1.1.0"
+ },
+ {
+  "name": "@cofy-x/dsh-cron",
+  "action": "fallback",
+  "from": "0.7.2",
+  "to": "0.8.0-alpha.4"
+ },
+ {
+  "name": "@lemoncat7/dsh-ssh",
+  "action": "fallback",
+  "from": "1.14.1",
+  "to": "1.14.0"
+ },
+ {
+  "name": "deepseek-harness-openai-oauth",
+  "action": "fallback",
+  "from": "0.4.0",
+  "to": "0.3.1"
+ },
+ {
+  "name": "dsh-adapter-qq",
+  "action": "fallback",
+  "from": "0.2.2",
+  "to": "0.2.3"
+ },
+ {
+  "name": "dsh-coding-kit",
+  "action": "fallback",
+  "from": "3.0.2",
+  "to": "2.1.1"
+ },
+ {
+  "name": "dsh-model-router",
+  "action": "fallback",
+  "from": "0.9.5",
+  "to": "0.7.1"
+ },
+ {
+  "name": "echocat-skill-panel",
+  "action": "fallback",
+  "from": "5.1.3",
+  "to": "4.4.2"
+ },
+ {
+  "name": "echocat-skill-panel-3.0",
+  "action": "fallback",
+  "from": "5.1.3",
+  "to": "4.4.2"
+ },
+ {
+  "name": "@beihaizb/dsh-notebook",
+  "action": "fallback",
+  "from": "0.4.0",
+  "to": "0.3.1"
+ },
+ {
+  "name": "deepseek-harness-wecom",
+  "action": "fallback",
+  "from": "0.1.0",
+  "to": "0.1.5"
+ },
+ {
+  "name": "dsh-guardian",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.0-alpha.2"
+ },
+ {
+  "name": "dsh-kit",
+  "action": "fallback",
+  "from": "0.5.7",
+  "to": "0.2.1"
+ },
+ {
+  "name": "dsh-linghun",
+  "action": "fallback",
+  "from": "1.0.0",
+  "to": "0.4.5"
+ },
+ {
+  "name": "dsh-plugin-bilibili",
+  "action": "fallback",
+  "from": "0.2.4",
+  "to": "0.2.1"
+ },
+ {
+  "name": "harness-widgets",
+  "action": "fallback",
+  "from": "1.8.5",
+  "to": "1.1.3"
+ },
+ {
+  "name": "@beihaizb/dsh-envsel",
+  "action": "fallback",
+  "from": "0.3.1",
+  "to": "0.3.0"
+ },
+ {
+  "name": "@xiaotuchu/dsh-theme-eye-care",
+  "action": "fallback",
+  "from": "2.2.0",
+  "to": "2.1.0"
+ },
+ {
+  "name": "deepseek-harness-lark",
+  "action": "fallback",
+  "from": "0.1.0",
+  "to": "0.1.5"
+ },
+ {
+  "name": "dsh-agent-teams-fish",
+  "action": "fallback",
+  "from": "1.0.1",
+  "to": "0.7.3"
+ },
+ {
+  "name": "dsh-cloud-workspaces",
+  "action": "fallback",
+  "from": "0.3.0",
+  "to": "0.2.1"
+ },
+ {
+  "name": "dsh-cost-tracker",
+  "action": "fallback",
+  "from": "1.2.1",
+  "to": "1.0.1"
+ },
+ {
+  "name": "dsh-driftwatch",
+  "action": "fallback",
+  "from": "0.2.1",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-gauge",
+  "action": "fallback",
+  "from": "0.1.0",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-qwen38-ninfer-compaction-fix",
+  "action": "fallback",
+  "from": "1.3.0",
+  "to": "1.1.0"
+ },
+ {
+  "name": "dsh-web-search-thirdparty",
+  "action": "fallback",
+  "from": "0.4.0",
+  "to": "0.3.0"
+ },
+ {
+  "name": "dsh-win-toolkit",
+  "action": "fallback",
+  "from": "0.3.0",
+  "to": "0.1.3"
+ },
+ {
+  "name": "@elves-ai/dsh-web-search-firecrawl",
+  "action": "fallback",
+  "from": "1.1.0",
+  "to": "1.0.0"
+ },
+ {
+  "name": "deepseek-harness-dingtalk",
+  "action": "fallback",
+  "from": "0.1.0",
+  "to": "0.1.5"
+ },
+ {
+  "name": "deepseek-harness-weixin",
+  "action": "fallback",
+  "from": "0.2.4",
+  "to": "0.2.5"
+ },
+ {
+  "name": "dsh-plugin-github",
+  "action": "fallback",
+  "from": "0.1.6",
+  "to": "0.1.2"
+ },
+ {
+  "name": "dsh-plugin-notify",
+  "action": "fallback",
+  "from": "0.1.2",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-teams-x",
+  "action": "fallback",
+  "from": "0.11.2",
+  "to": "0.2.0"
+ },
+ {
+  "name": "dsh-tidewatch",
+  "action": "fallback",
+  "from": "1.28.8",
+  "to": "1.0.6"
+ },
+ {
+  "name": "dsh-tool-user-memory",
+  "action": "fallback",
+  "from": "0.4.2",
+  "to": "0.4.0"
+ },
+ {
+  "name": "dsh-usage-monitor",
+  "action": "fallback",
+  "from": "0.2.20",
+  "to": "0.1.1"
+ },
+ {
+  "name": "qrcode-hassle-free",
+  "action": "fallback",
+  "from": "1.4.2",
+  "to": "1.3.1"
+ },
+ {
+  "name": "@coldcgh/dsh-desktop-shell",
+  "action": "fallback",
+  "from": "0.6.0",
+  "to": "0.2.8"
+ },
+ {
+  "name": "@ddtcorex/dsh-maestro-supervisor",
+  "action": "fallback",
+  "from": "0.14.0",
+  "to": "0.9.0"
+ },
+ {
+  "name": "@djasdh/interest-memory-dsh-bridge",
+  "action": "fallback",
+  "from": "0.2.3",
+  "to": "0.1.1"
+ },
+ {
+  "name": "@dshworks/dsh-watch",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.2.3"
+ },
+ {
+  "name": "@hxql/dsh-persona-manager",
+  "action": "fallback",
+  "from": "0.1.3",
+  "to": "0.1.2"
+ },
+ {
+  "name": "@lemoncat7/dsh-web-search",
+  "action": "fallback",
+  "from": "0.3.5",
+  "to": "0.3.4"
+ },
+ {
+  "name": "@loyalchiiina/dsh-chat-image-lightbox",
+  "action": "fallback",
+  "from": "1.9.1",
+  "to": "1.7.5"
+ },
+ {
+  "name": "dsh-anthropic-oauth",
+  "action": "fallback",
+  "from": "0.1.0",
+  "to": "0.3.1"
+ },
+ {
+  "name": "dsh-autoresume",
+  "action": "fallback",
+  "from": "0.1.5",
+  "to": "0.1.3"
+ },
+ {
+  "name": "dsh-better-overleaf",
+  "action": "fallback",
+  "from": "0.3.0",
+  "to": "0.2.0"
+ },
+ {
+  "name": "dsh-better-reasoning-effort-fish",
+  "action": "drop",
+  "version": "0.5.8",
+  "verdict": "missing"
+ },
+ {
+  "name": "dsh-code-checker",
+  "action": "fallback",
+  "from": "0.5.0",
+  "to": "1.0.0"
+ },
+ {
+  "name": "dsh-echelon",
+  "action": "fallback",
+  "from": "1.9.0",
+  "to": "1.3.0"
+ },
+ {
+  "name": "dsh-herald",
+  "action": "fallback",
+  "from": "1.0.0",
+  "to": "1.0.1"
+ },
+ {
+  "name": "dsh-netassist",
+  "action": "fallback",
+  "from": "0.4.0",
+  "to": "0.2.1"
+ },
+ {
+  "name": "dsh-odette-skin",
+  "action": "fallback",
+  "from": "0.1.0",
+  "to": "0.1.2"
+ },
+ {
+  "name": "dsh-on-phone",
+  "action": "fallback",
+  "from": "0.8.15",
+  "to": "0.8.14"
+ },
+ {
+  "name": "dsh-outlook",
+  "action": "fallback",
+  "from": "2.11.0",
+  "to": "2.6.1"
+ },
+ {
+  "name": "dsh-plugin-harness-whale",
+  "action": "fallback",
+  "from": "0.3.12",
+  "to": "0.2.0"
+ },
+ {
+  "name": "dsh-smart-prompt",
+  "action": "fallback",
+  "from": "1.2.0",
+  "to": "1.0.1"
+ },
+ {
+  "name": "dsh-tool-guardian",
+  "action": "fallback",
+  "from": "0.8.3",
+  "to": "0.9.1-beta.1"
+ },
+ {
+  "name": "dsh-voice-input-cn",
+  "action": "fallback",
+  "from": "0.0.21",
+  "to": "1.0.0"
+ },
+ {
+  "name": "dsh-workbuddy-ppt",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.0"
+ },
+ {
+  "name": "github-release-accelerator",
+  "action": "fallback",
+  "from": "0.3.5",
+  "to": "0.3.4"
+ },
+ {
+  "name": "sage-guikit",
+  "action": "fallback",
+  "from": "0.5.1",
+  "to": "0.5.0"
+ },
+ {
+  "name": "win-pilot",
+  "action": "fallback",
+  "from": "0.6.0",
+  "to": "0.5.0"
+ },
+ {
+  "name": "@little-traincar/dsh-imagegen",
+  "action": "drop",
+  "version": "0.4.1",
+  "verdict": "nopkg"
+ },
+ {
+  "name": "@w2112515/dsh-remote-host",
+  "action": "fallback",
+  "from": "0.2.2",
+  "to": "0.1.0"
+ },
+ {
+  "name": "@xiaotuchu/dsh-file-tree",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.0"
+ },
+ {
+  "name": "agent-teams-pixel",
+  "action": "fallback",
+  "from": "0.2.7",
+  "to": "0.2.0"
+ },
+ {
+  "name": "cn-linebreak",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.2.1"
+ },
+ {
+  "name": "dsh-anchor-rail",
+  "action": "fallback",
+  "from": "1.0.5",
+  "to": "1.0.4"
+ },
+ {
+  "name": "dsh-archive-manager-plus",
+  "action": "fallback",
+  "from": "0.1.4",
+  "to": "0.1.3"
+ },
+ {
+  "name": "dsh-chat-share",
+  "action": "fallback",
+  "from": "1.4.4",
+  "to": "1.3.0"
+ },
+ {
+  "name": "dsh-copilot-plugin",
+  "action": "fallback",
+  "from": "0.4.0",
+  "to": "0.2.3"
+ },
+ {
+  "name": "dsh-deepseek-peak-indicator",
+  "action": "fallback",
+  "from": "0.9.0",
+  "to": "0.6.0"
+ },
+ {
+  "name": "dsh-fold-polish",
+  "action": "fallback",
+  "from": "0.9.0",
+  "to": "1.1.4"
+ },
+ {
+  "name": "dsh-gif-background",
+  "action": "fallback",
+  "from": "0.1.2",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-kaze-tachinu-theme",
+  "action": "fallback",
+  "from": "0.1.0",
+  "to": "1.0.0"
+ },
+ {
+  "name": "dsh-llm-grok",
+  "action": "fallback",
+  "from": "0.3.22",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-loading-phrases",
+  "action": "fallback",
+  "from": "0.7.1",
+  "to": "0.6.4"
+ },
+ {
+  "name": "dsh-mcp-settings",
+  "action": "fallback",
+  "from": "0.2.1",
+  "to": "0.2.5"
+ },
+ {
+  "name": "dsh-mycordis",
+  "action": "fallback",
+  "from": "2.0.0",
+  "to": "1.0.0"
+ },
+ {
+  "name": "dsh-native-reasoning-slider",
+  "action": "fallback",
+  "from": "0.2.1",
+  "to": "0.1.8"
+ },
+ {
+  "name": "dsh-nexus",
+  "action": "fallback",
+  "from": "0.2.65",
+  "to": "0.2.62"
+ },
+ {
+  "name": "dsh-pixel-team",
+  "action": "fallback",
+  "from": "0.1.104",
+  "to": "0.1.16"
+ },
+ {
+  "name": "dsh-plugin-toolkit",
+  "action": "fallback",
+  "from": "1.0.0",
+  "to": "0.13.9"
+ },
+ {
+  "name": "dsh-question-index",
+  "action": "fallback",
+  "from": "0.1.2",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-serverchan-notify",
+  "action": "fallback",
+  "from": "1.0.0",
+  "to": "1.1.0"
+ },
+ {
+  "name": "dsh-shop-assistant",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-story-party",
+  "action": "fallback",
+  "from": "0.2.0",
+  "to": "0.1.48"
+ },
+ {
+  "name": "dsh-tidy-display",
+  "action": "fallback",
+  "from": "0.1.0-dsh0.1.1",
+  "to": "0.4.7"
+ },
+ {
+  "name": "dsh-tps-meter",
+  "action": "fallback",
+  "from": "0.1.2",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-ui-enhancer",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.2.0"
+ },
+ {
+  "name": "dsh-ui-three-body",
+  "action": "fallback",
+  "from": "0.3.0",
+  "to": "0.2.10"
+ },
+ {
+  "name": "dsh-web-notify",
+  "action": "fallback",
+  "from": "0.2.0",
+  "to": "0.1.5"
+ },
+ {
+  "name": "dsh-workbench-shell",
+  "action": "fallback",
+  "from": "1.11.4",
+  "to": "1.11.2"
+ },
+ {
+  "name": "dsh-workbench-theme",
+  "action": "fallback",
+  "from": "1.3.4",
+  "to": "1.3.3"
+ },
+ {
+  "name": "smart-compaction",
+  "action": "fallback",
+  "from": "0.3.4",
+  "to": "0.3.15"
+ },
+ {
+  "name": "@asun-labs/dsh-plugin-agent-switch",
+  "action": "fallback",
+  "from": "0.2.0",
+  "to": "0.3.1"
+ },
+ {
+  "name": "@ax2zicode/dsh-dev-toolbox",
+  "action": "fallback",
+  "from": "0.1.2",
+  "to": "0.1.1"
+ },
+ {
+  "name": "@dsh-pulse/dsh-hermes-bridge",
+  "action": "fallback",
+  "from": "0.2.0",
+  "to": "0.1.0"
+ },
+ {
+  "name": "@duke-dsh-plugins/dsh-whaleharbor-pet",
+  "action": "fallback",
+  "from": "1.1.1",
+  "to": "1.0.0"
+ },
+ {
+  "name": "@hpyperry/dsh-ref-lib",
+  "action": "fallback",
+  "from": "0.20.1",
+  "to": "0.17.0"
+ },
+ {
+  "name": "@louisremi/dsh-docker-adapter",
+  "action": "fallback",
+  "from": "0.3.1",
+  "to": "0.2.1"
+ },
+ {
+  "name": "@njuptlzf/dsh-ponytail",
+  "action": "fallback",
+  "from": "1.0.1",
+  "to": "1.2.0"
+ },
+ {
+  "name": "@useorgx/deepseek-harness-plugin",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-app-packager",
+  "action": "fallback",
+  "from": "0.7.3",
+  "to": "0.7.2"
+ },
+ {
+  "name": "dsh-backup",
+  "action": "fallback",
+  "from": "0.4.0",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-browser-panel",
+  "action": "fallback",
+  "from": "0.3.0",
+  "to": "0.2.0"
+ },
+ {
+  "name": "dsh-context-snapshot-bar",
+  "action": "fallback",
+  "from": "0.3.1",
+  "to": "0.2.0"
+ },
+ {
+  "name": "dsh-conversation-nav",
+  "action": "fallback",
+  "from": "0.1.6",
+  "to": "0.5.0"
+ },
+ {
+  "name": "dsh-desktop-app",
+  "action": "fallback",
+  "from": "0.2.5",
+  "to": "0.4.0"
+ },
+ {
+  "name": "dsh-doc-review",
+  "action": "fallback",
+  "from": "0.2.0",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-drill",
+  "action": "fallback",
+  "from": "0.8.6",
+  "to": "0.8.3"
+ },
+ {
+  "name": "dsh-ds-kanban",
+  "action": "drop",
+  "version": "0.3.0",
+  "verdict": "missing"
+ },
+ {
+  "name": "dsh-ds-ponytail",
+  "action": "drop",
+  "version": "0.1.2",
+  "verdict": "missing"
+ },
+ {
+  "name": "dsh-file-path",
+  "action": "fallback",
+  "from": "0.1.4",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-force-collab",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-gemini-argon",
+  "action": "fallback",
+  "from": "0.7.3",
+  "to": "0.7.0"
+ },
+ {
+  "name": "dsh-goal-restart",
+  "action": "fallback",
+  "from": "0.0.1",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-herta-balance-card",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-mcp-plus",
+  "action": "fallback",
+  "from": "0.2.0",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-next-sentence",
+  "action": "fallback",
+  "from": "0.1.16",
+  "to": "0.1.14"
+ },
+ {
+  "name": "dsh-open-with",
+  "action": "fallback",
+  "from": "0.2.1",
+  "to": "0.2.0"
+ },
+ {
+  "name": "dsh-peak-pricing",
+  "action": "fallback",
+  "from": "0.3.0",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-ping-me",
+  "action": "fallback",
+  "from": "0.1.3",
+  "to": "0.1.2"
+ },
+ {
+  "name": "dsh-pku-cluster",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.2"
+ },
+ {
+  "name": "dsh-plugin-subscription-oauth",
+  "action": "fallback",
+  "from": "0.17.23-subscription-native",
+  "to": "0.17.24"
+ },
+ {
+  "name": "dsh-plugin-trellis-workflow",
+  "action": "fallback",
+  "from": "0.1.2",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-preset-tool-guard",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.2"
+ },
+ {
+  "name": "dsh-prompt-system",
+  "action": "fallback",
+  "from": "1.0.1",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-pwsh-direct",
+  "action": "fallback",
+  "from": "0.2.0",
+  "to": "0.2.1"
+ },
+ {
+  "name": "dsh-quarto-book",
+  "action": "drop",
+  "version": "0.6.18",
+  "verdict": "missing"
+ },
+ {
+  "name": "dsh-remote-hub",
+  "action": "fallback",
+  "from": "4.17.1",
+  "to": "0.4.2"
+ },
+ {
+  "name": "dsh-serene",
+  "action": "fallback",
+  "from": "0.7.0",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-session-deck",
+  "action": "fallback",
+  "from": "0.2.2",
+  "to": "0.2.3"
+ },
+ {
+  "name": "dsh-session-dm",
+  "action": "fallback",
+  "from": "0.3.0",
+  "to": "0.2.0"
+ },
+ {
+  "name": "dsh-session-lock",
+  "action": "fallback",
+  "from": "0.1.1",
+  "to": "0.1.0"
+ },
+ {
+  "name": "dsh-shadow-mind",
+  "action": "fallback",
+  "from": "0.1.7",
+  "to": "0.1.4"
+ },
+ {
+  "name": "dsh-suhuang-scroll",
+  "action": "fallback",
+  "from": "0.7.0",
+  "to": "0.5.0"
+ },
+ {
+  "name": "dsh-tmux-cc",
+  "action": "fallback",
+  "from": "0.7.1",
+  "to": "0.6.0"
+ },
+ {
+  "name": "dsh-trading212",
+  "action": "fallback",
+  "from": "0.11.0",
+  "to": "0.10.0"
+ },
+ {
+  "name": "dsh-usage-plus",
+  "action": "fallback",
+  "from": "0.1.3",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-user-portrait",
+  "action": "fallback",
+  "from": "0.1.2",
+  "to": "0.1.1"
+ },
+ {
+  "name": "dsh-verbose",
+  "action": "fallback",
+  "from": "0.8.1",
+  "to": "0.8.2"
+ },
+ {
+  "name": "dsh-whale-combo",
+  "action": "fallback",
+  "from": "1.0.8",
+  "to": "1.0.7"
+ },
+ {
+  "name": "myspace-dsh-browser-computer",
+  "action": "drop",
+  "version": "0.1.5",
+  "verdict": "missing"
+ }
+]

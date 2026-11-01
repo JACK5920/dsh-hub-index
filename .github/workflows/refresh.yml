@@ -14,13 +14,17 @@ jobs:
         with:
           python-version: "3.12"
       - name: Convert upstream catalog to format 1
-        run: python scripts/hub2index.py --out index.json --enrich --validate --npm-cache npm-cache.json
+        run: python scripts/hub2index.py --out index.json --enrich --npm-cache npm-cache.json
+      - name: Drop entries whose declared version is not on npm
+        run: python scripts/verify_versions.py index.json --out index.json --cache npm-verify.json
+      - name: Validate against the host's own format-1 rules
+        run: python scripts/validate_index.py index.json
       - name: Commit when changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain index.json npm-cache.json)" ]; then
-            git add index.json npm-cache.json
+          if [ -n "$(git status --porcelain index.json npm-cache.json npm-verify.json)" ]; then
+            git add index.json npm-cache.json npm-verify.json
             git commit -m "data: refresh market index ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
           else
